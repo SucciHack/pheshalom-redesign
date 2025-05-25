@@ -6,9 +6,8 @@ import MainNav from '@/components/mainNav'
 import ProductsCategory from '@/components/products-category-section'
 import TopNav from '@/components/topNav'
 import WorkshopSection from '@/components/work-shop-section'
-import React, { useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
 
   return (
     <div className='bg-[#F3F4F6] min-h-screen'>

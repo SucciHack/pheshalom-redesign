@@ -4,7 +4,7 @@ import TopNav from '@/components/topNav'
 import { Badge, ChefHat, Stethoscope, Wrench } from 'lucide-react';
 import React, { useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
     const [scrolled, setScrolled] = useState(false);
     
       useEffect(() => {
