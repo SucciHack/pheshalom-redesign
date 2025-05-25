@@ -1,20 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Dialog, DialogPanel } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
-const navigation = [
-  { name: "Marketing", href: "#" },
-  { name: "Application UI", href: "#" },
-  { name: "Ecommerce", href: "#" },
-  { name: "Documentation", href: "#" },
-];
 
 export default function HeroSection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
